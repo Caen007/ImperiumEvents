@@ -5,44 +5,52 @@
 </p>
 
 <p align="center">
-<b>A Valheim event mod for hosting organized server competitions.</b>
+<b>A Valheim event mod created for Imperium Hosting.</b>
 </p>
 
 <p align="center">
-Create race events, competitions, and community challenges directly inside Valheim.
+Host races, competitions, and community events directly inside your Valheim server.
 </p>
 
 ---
 
 # ⚔ Imperium Events
 
-**Imperium Events** adds a full **race event system** to Valheim.
+**Imperium Events** is a race and event framework designed for **Imperium Hosting community events**.
 
-Players can **register, race, and finish events**, while the server automatically tracks results and rankings.
+It allows servers to create structured competitions such as the **Imperium Triathlon**, where players can register, race, and automatically record their results.
 
 Perfect for:
 
 - Community servers
+- Imperium Hosting events
 - PvE competitions
-- Streamer hosted events
+- Streamer hosted races
 - Server tournaments
 
 ---
 
-# 🪓 Features
+# 🪓 What This Mod Adds
 
-✔ Race registration system  
-✔ Admin-controlled race start  
-✔ Automatic race timer  
-✔ Live scoreboard updates  
-✔ Automatic race results  
-✔ JSON results export  
-✔ Event gates and banners  
-✔ Directional race markers  
+• Start & Finish race gates  
+• Event decoration banners  
+• Directional race banners  
+• Safe zone and danger markers  
+• Player registration rune  
+• Race finish rune  
+• Imperium horn (admin race start)  
+• Live scoreboard  
+• Automatic race result tracking  
+
+Just install and host your own Valheim race events.
 
 ---
 
-# 🏁 Start & Finish Gates
+# 📸 Screenshots
+
+---
+
+## Start & Finish Gates
 
 Used to mark the **start and finish of the race course**.
 
@@ -52,17 +60,17 @@ Used to mark the **start and finish of the race course**.
 
 ---
 
-# 🏳 Event Banners
+## Event Banners
 
-Decorate event areas and mark race hubs.
+Decorate event areas or mark the race hub.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Caen007/ImperiumEvents/main/img/Imperium_and_Welcome_Banner.png" width="800">
+<img src="https://raw.githubusercontent.com/Caen007/ImperiumEvents/main/img/Imperium_and_Welcome_Banner.png" width="850">
 </p>
 
 ---
 
-# 🧭 Directional Banners
+## Directional Banners
 
 Guide players through the race route.
 
@@ -72,9 +80,9 @@ Guide players through the race route.
 
 ---
 
-# ⚠ Danger & Safe Zone Markers
+## Danger & Safe Zone Banners
 
-Used to mark dangerous areas or safe zones during events.
+Used to mark dangerous areas or restricted zones during events.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Caen007/ImperiumEvents/main/img/Danger_and_safe_Banners.png" width="900">
@@ -82,7 +90,7 @@ Used to mark dangerous areas or safe zones during events.
 
 ---
 
-# 📢 Event Control Objects
+## Event Control Objects
 
 These objects control the race system.
 
@@ -90,7 +98,7 @@ Includes:
 
 - Start Rune (player registration)
 - Finish Rune (race completion)
-- Imperium Horn (admin race start)
+- Imperium Horn (race start)
 - Scoreboard (race status)
 
 <p align="center">
@@ -99,9 +107,9 @@ Includes:
 
 ---
 
-# 🔨 Hammer Build Tab
+## Hammer Build Tab
 
-All pieces appear in the **custom hammer tab**.
+All event pieces appear under the **ImperiumEvents hammer tab**.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Caen007/ImperiumEvents/main/img/HammerTab.png">
@@ -111,13 +119,13 @@ All pieces appear in the **custom hammer tab**.
 
 # ⚔ How The Event Works
 
-### 1️⃣ Player Registration
+### Player Registration
 
 Players interact with the **Start Rune** to register for the race.
 
 ---
 
-### 2️⃣ Race Start
+### Race Start
 
 An **admin uses the Imperium Horn** to start the race.
 
@@ -125,7 +133,7 @@ A countdown begins before the race starts.
 
 ---
 
-### 3️⃣ Race Progress
+### Race Progress
 
 The **scoreboard updates live**, showing:
 
@@ -136,7 +144,7 @@ The **scoreboard updates live**, showing:
 
 ---
 
-### 4️⃣ Finish
+### Finish
 
 Players interact with the **Finish Rune** when they reach the finish line.
 
@@ -144,13 +152,13 @@ Their completion time is automatically recorded.
 
 ---
 
-### 5️⃣ Results
+### Results
 
 When all racers finish:
 
-- Final rankings appear on the scoreboard
-- A results popup appears
-- Results are saved automatically
+• Final rankings appear on the scoreboard  
+• Results popup appears  
+• Results are saved automatically  
 
 ---
 
@@ -162,7 +170,7 @@ Race results are automatically saved to:
 BepInEx/config/ImperiumTriathlonResults.json
 ```
 
-The file contains:
+The file stores:
 
 - Player names
 - Finish times
@@ -172,7 +180,7 @@ The file contains:
 
 # ⚙ Configuration
 
-Config file:
+Config file location:
 
 ```
 BepInEx/config/Imperium.Events.cfg
@@ -188,6 +196,8 @@ Example:
 AdminPlayerNames = Caenos,James
 ```
 
+---
+
 ### CountdownSeconds
 
 Race countdown before start.
@@ -200,7 +210,7 @@ Default:
 
 ---
 
-# 🔧 Installation
+# 🔨 Installation
 
 ### 1 Install dependencies
 
@@ -222,7 +232,7 @@ BepInEx/plugins/
 
 ---
 
-### 3 Start the game
+### 3 Launch Valheim
 
 The event pieces will appear in the **Hammer build menu**.
 
@@ -232,15 +242,16 @@ The event pieces will appear in the **Hammer build menu**.
 
 Created by **Caenos**
 
+Developed for **Imperium Hosting community events**.
+
 ---
 
-## Special Thanks
+## Special thanks :
 
-- Community testers
-- Imperium event participants
-
+- TheUndertaker – for testing and feedback.
+- Everyone who helped test the Imperium events.
 ---
 
 <p align="center">
-<b>Host epic races and bring competition to your Valheim server.</b>
+<b>Bring organized competition to your Valheim server.</b>
 </p>

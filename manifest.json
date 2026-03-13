@@ -1,0 +1,15 @@
+{
+    "name": "MoonforgedBuildPieces",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Caen007/MoonforgedBuildPieces",
+    "description": "Bring life, color, and atmosphere to your settlement with rugs, stained-glass windows, lamps, porcelain sets, benches, cannons, and more.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333",
+    "ValheimModding-Jotunn-2.26.1"
+  ],
+    "categories": [
+        "build",
+        "gates",
+        "structures"
+    ]
+}
